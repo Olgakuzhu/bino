@@ -10,7 +10,7 @@ body {
 	min-width: 980px;
 }
 
-section {
+.section-welcom {
 	padding: 40px 120px 260px;
 	position: relative;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/layer-5.jpg');
@@ -20,8 +20,8 @@ section {
 	/*overflow: hidden;*/
 }
 
-section::before,
-section::after {
+.section-welcom::before,
+.section-welcom::after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -30,13 +30,13 @@ section::after {
 	height: 0;
 }
 
-section::before {
+.section-welcom::before {
 	border-bottom: 120px solid #fff;
 	border-right: 960px solid transparent;
 	right: 50%;
 }
 
-section::after {
+.section-welcom::after {
 	border-bottom: 120px solid #fff;
 	border-left: 960px solid transparent;
 	left: 50%;
@@ -87,7 +87,7 @@ section::after {
 	border-bottom: 1px solid #e74c3c;
 }
 
-.section_content {
+.welcom_content {
 	margin-top: 235px;
 	text-align: center;
 }
